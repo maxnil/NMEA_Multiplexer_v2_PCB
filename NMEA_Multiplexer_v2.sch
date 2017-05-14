@@ -374,33 +374,33 @@ TXD7
 Text Label 9100 4550 0    60   ~ 0
 RXD7
 Text Label 4900 2850 2    60   ~ 0
-TXD4
+TXD5
 Text Label 4900 2950 2    60   ~ 0
-RXD4
+RXD5
 Text Label 9100 2150 0    60   ~ 0
 TXD3
 Text Label 9100 2250 0    60   ~ 0
 RXD3
 Text Label 9100 2350 0    60   ~ 0
-RXD2
+RXD4
 Text Label 9100 2450 0    60   ~ 0
-TXD2
+TXD4
 Text Label 9100 2750 0    60   ~ 0
-RXD0
+RXD2
 Text Label 9100 2850 0    60   ~ 0
-TXD0
+TXD2
 Text Label 9100 3050 0    60   ~ 0
-RXD5
+RXD1
 Text Label 9100 3150 0    60   ~ 0
-TXD5
+TXD1
 Text Label 9100 2950 0    60   ~ 0
 LED_3_TX
 Text Label 9100 4450 0    60   ~ 0
 LED_3_ERR
 Text Label 4900 2250 2    60   ~ 0
-RXD1
+RXD0
 Text Label 4900 2350 2    60   ~ 0
-TXD1
+TXD0
 Text Label 9100 3950 0    60   ~ 0
 DM
 Text Label 9100 4050 0    60   ~ 0
@@ -1062,8 +1062,6 @@ Text Label 4900 3050 2    60   ~ 0
 LED_BT_RX
 Text Label 4900 3150 2    60   ~ 0
 LED_BT_TX
-Text Label 4900 3350 2    60   ~ 0
-LED_BT_ERR
 Text Label 4900 3550 2    60   ~ 0
 LED_USB_CON
 $Comp
@@ -1776,8 +1774,6 @@ Wire Wire Line
 Wire Wire Line
 	9100 3450 9000 3450
 Wire Wire Line
-	4900 3350 5000 3350
-Wire Wire Line
 	4900 3550 5000 3550
 Wire Wire Line
 	9100 1850 9000 1850
@@ -2071,9 +2067,9 @@ Wire Wire Line
 Wire Wire Line
 	3550 1300 3300 1300
 Text Label 3550 900  0    60   ~ 0
-TX0
+TX2
 Text Label 3550 1300 0    60   ~ 0
-RX0
+RX2
 $Comp
 L GND #PWR045
 U 1 1 59072CFB
@@ -2135,9 +2131,9 @@ Wire Wire Line
 Wire Wire Line
 	3550 3300 3300 3300
 Text Label 3550 2900 0    60   ~ 0
-TX2
+TX0
 Text Label 3550 3300 0    60   ~ 0
-RX2
+RX0
 $Comp
 L GND #PWR047
 U 1 1 590733A2
@@ -2853,4 +2849,5 @@ F 3 "" H 12350 5500 50  0001 C CNN
 	1    12350 5500
 	1    0    0    -1  
 $EndComp
+NoConn ~ 5000 3350
 $EndSCHEMATC
