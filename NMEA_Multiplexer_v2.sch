@@ -272,7 +272,7 @@ $EndComp
 Text Label 7550 10150 0    60   ~ 0
 TMS
 Text Label 7550 10250 0    60   ~ 0
-TCxK
+TCK
 Text Label 7550 10350 0    60   ~ 0
 TDO
 Text Label 7550 10450 0    60   ~ 0
@@ -343,7 +343,7 @@ TDO
 Text Label 4900 2650 2    60   ~ 0
 TMS
 Text Label 4900 2750 2    60   ~ 0
-TCxK
+TCK
 Text Label 4900 3900 2    60   ~ 0
 nRST
 Text Label 9100 2850 0    60   ~ 0
@@ -983,7 +983,7 @@ LED_0_TX
 Text Label 9100 4250 0    60   ~ 0
 LED_0_ERR
 Text Label 9100 4350 0    60   ~ 0
-CxTS0
+CTS0
 Text Label 9100 2950 0    60   ~ 0
 LED_1_TX
 Text Label 9100 3750 0    60   ~ 0
@@ -1344,17 +1344,17 @@ TXD3
 Text Label 12350 5400 2    60   ~ 0
 TXD2
 Text Label 12350 5900 2    60   ~ 0
-RXD3
-Text Label 12350 6000 2    60   ~ 0
 RXD2
+Text Label 12350 6000 2    60   ~ 0
+RXD3
 Text Label 13750 5300 0    60   ~ 0
 TX3
 Text Label 13750 5400 0    60   ~ 0
 TX4
 Text Label 13750 5900 0    60   ~ 0
-RX3
-Text Label 13750 6000 0    60   ~ 0
 RX4
+Text Label 13750 6000 0    60   ~ 0
+RX3
 NoConn ~ 13700 5500
 NoConn ~ 12400 6100
 $Comp
@@ -1892,7 +1892,7 @@ NoConn ~ 12350 8100
 NoConn ~ 12350 8000
 NoConn ~ 12350 7900
 Text Label 12250 7500 2    60   ~ 0
-CxTS0
+CTS0
 Text Label 12250 7600 2    60   ~ 0
 RXD0
 Text Label 12250 7700 2    60   ~ 0
